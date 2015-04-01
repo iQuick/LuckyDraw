@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="LuckyDrawView">
+        <attr name="startSrc" format="reference"/>
+        <attr name="startBackgroud" format="color|reference" />
+        <attr name="prizeBackgroud" format="color|reference" />
+    </declare-styleable>
+</resources>

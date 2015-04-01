@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/me.imli.luckydraw"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止" />
+
+    <me.imli.luckydraw.ld.LuckyDrawView
+        android:id="@+id/luck_draw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:startBackgroud="@drawable/lucky_draw_btn_selector"
+        app:startSrc="@drawable/ic_launcher" />
+
+</LinearLayout>

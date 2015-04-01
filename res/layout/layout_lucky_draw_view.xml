@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/v_lucky_draw_view_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="8dp"
+        android:contentDescription="@null" />
+
+    <me.imli.luckydraw.ld.LuckyDrawItem
+        android:id="@+id/ld_lucky_draw_view_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/v_lucky_draw_view_start"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/v_lucky_draw_view_start" />
+
+    <me.imli.luckydraw.ld.LuckyDrawItem
+        android:id="@+id/ld_lucky_draw_view_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/v_lucky_draw_view_start"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+
+    <me.imli.luckydraw.ld.LuckyDrawItem
+        android:id="@+id/ld_lucky_draw_view_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/v_lucky_draw_view_start"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/v_lucky_draw_view_start" />
+
+    <me.imli.luckydraw.ld.LuckyDrawItem
+        android:id="@+id/ld_lucky_draw_view_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/v_lucky_draw_view_start" />
+
+    <me.imli.luckydraw.ld.LuckyDrawItem
+        android:id="@+id/ld_lucky_draw_view_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v_lucky_draw_view_start"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/v_lucky_draw_view_start" />
+
+    <me.imli.luckydraw.ld.LuckyDrawItem
+        android:id="@+id/ld_lucky_draw_view_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v_lucky_draw_view_start"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+
+    <me.imli.luckydraw.ld.LuckyDrawItem
+        android:id="@+id/ld_lucky_draw_view_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v_lucky_draw_view_start"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/v_lucky_draw_view_start" />
+
+    <me.imli.luckydraw.ld.LuckyDrawItem
+        android:id="@+id/ld_lucky_draw_view_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/v_lucky_draw_view_start" />
+
+</RelativeLayout>
